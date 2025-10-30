@@ -77,6 +77,26 @@
         .control-group button:hover {
             background: #45a049;
         }
+
+        /* AR Button positioning */
+        #ar-button {
+            position: absolute;
+            left: 50%;
+            bottom: 40px;
+            transform: translateX(-50%);
+            background: #4CAF50;
+            color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 16px;
+            font-size: 16px;
+            z-index: 20;
+            cursor: pointer;
+        }
+
+        #ar-button:active {
+            transform: translateX(-50%) scale(0.98);
+        }
     </style>
 </head>
 <body>
